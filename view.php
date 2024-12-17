@@ -32,6 +32,7 @@ header('location:view.php');
             <th>Lastname</th>
             <th>Email</th>
             <th>Action</th>
+            
             </tr>
             ";
             while ($data = mysqli_fetch_assoc($query)) {
